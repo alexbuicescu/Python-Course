@@ -87,3 +87,15 @@
 # 		rezultat += numar
 # 	print rezultat
 # sumaDeNumere(1, 2, 2)
+
+def decodeMessage(message):
+	mesajulmeu = ''
+	for i, litera in enumerate(message):
+		if litera != ' ' and litera != 'z':
+			mesajulmeu += chr(ord(litera) + 1)
+		elif litera == 'z':
+			mesajulmeu += 'a'
+		else:
+			mesajulmeu += ' '
+	print mesajulmeu
+decodeMessage("j mjlf cjh cvuut boe j dboopu mjf\nzpv puifs cspuifst dbo'u efoz")

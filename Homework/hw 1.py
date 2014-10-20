@@ -18,7 +18,6 @@ def get_dividers(n):
         if n % number == 0:
             dividers.append(number)
     dividers.append(n)
-    # înlocuiește această linie cu codul tău
     return dividers
  
  
@@ -28,7 +27,6 @@ def get_dividers(n):
 # 3 -> 27
 # 4 -> 256
 def power(n):
-    # înlocuiește această linie cu codul tău
     return n**n
  
  
@@ -38,10 +36,9 @@ def power(n):
 # Exemplu:
 # 'primavara' -> 'prra'
 def both_ends(s):
-    # înlocuiește această linie cu codul tău
     if len(s) < 2:
         return ''
-    return s[0:2] + s[len(s) - 2 : len(s)]
+    return s[0:2] + s[-2:]
  
  
 # 4. Returnați șirul de caractere obținut prin înlocuirea tuturor aparițiilor
@@ -50,7 +47,6 @@ def both_ends(s):
 # Exemplu:
 # 'eleve' -> 'el*v*'
 def replace_chars(s):
-    # înlocuiește această linie cu codul tău
     returnedString = s[0]
     for i in range(1, len(s)):
         if s[i] == s[0]:
@@ -71,7 +67,6 @@ def replace_chars(s):
 # ['mere', 'banane'], [7, 5, 3] -> {'mere': 7, 'banane': 5}
 # ['mere', 'pere', 'prune'], [9, 3] -> {'mere': 9, 'pere': 3, 'prune': 0}
 def build_dict(keys, values):
-    # înlocuiește această linie cu codul tău
     dictionary = {}
     for i in range(0, len(keys)):
         if i < len(values):
@@ -88,12 +83,9 @@ def build_dict(keys, values):
 # Exemplu:
 # [1, 2, 3, 4, 5, 6], 2 -> [5, 6, 3, 4, 1, 2]
 def swap_k(l, k):
-    # înlocuiește această linie cu codul tău
     if 0 <= k and k < len(l):
         for i in range(0, k):
-            aux = l[i]
-            l[i] = l[len(l) + i - k]
-            l[len(l) + i - k] = aux
+            l[i], l[len(l) + i - k] = l[len(l) + i - k], l[i]
         return l
     else:
         return []
@@ -104,7 +96,6 @@ def swap_k(l, k):
 # Exemplu:
 # ['a', 'b', 'a', 'c'] -> {'a': 2, 'b': 1, 'c': 1}
 def how_many(l):
-    # înlocuiește această linie cu codul tău
     dictionary = {}
     for element in l:
         dictionary[element] = 0
