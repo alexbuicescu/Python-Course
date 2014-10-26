@@ -1,0 +1,11 @@
+fisierul meu de test
+linia 2
+si linia 3
+aici este end of file
+lalala
+lalala
+lalala
+lalala
+lalala
+lalala
+lalala
