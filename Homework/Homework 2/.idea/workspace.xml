@@ -12,7 +12,9 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Homework 2$main.coverage" NAME="main Coverage Results" MODIFIED="1414353399634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Homework 2$main3.coverage" NAME="main3 Coverage Results" MODIFIED="1414479400106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../Courses/Course 3" />
+    <SUITE FILE_PATH="coverage/Homework 2$exercises.coverage" NAME="exercises Coverage Results" MODIFIED="1414482607466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../Courses/Course 3" />
+    <SUITE FILE_PATH="coverage/Homework 2$main.coverage" NAME="main Coverage Results" MODIFIED="1414477009095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -26,11 +28,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4276094" vertical-offset="1871" max-vertical-offset="3383">
-              <caret line="125" column="20" selection-start-line="125" selection-start-column="20" selection-end-line="125" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1871" max-vertical-offset="3383">
+              <caret line="139" column="29" selection-start-line="139" selection-start-column="29" selection-end-line="139" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main3.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../Courses/Course 3/main3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="969">
+              <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exercises3.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../Courses/Course 3/exercises3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.94398683" vertical-offset="1195" max-vertical-offset="1921">
+              <caret line="104" column="21" selection-start-line="104" selection-start-column="21" selection-end-line="104" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -47,6 +69,10 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/../../Courses/Course 3/main.py" />
+        <option value="$PROJECT_DIR$/../../Courses/Course 3/main3.py" />
+        <option value="$PROJECT_DIR$/../../Courses/Course 3/exercises.py" />
+        <option value="$PROJECT_DIR$/../../Courses/Course 3/exercises3.py" />
       </list>
     </option>
   </component>
@@ -90,6 +116,14 @@
               <option name="myItemId" value="Homework 2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7.8 (C:\Python27\python.exe) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -97,8 +131,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Homework 2" />
+              <option name="myItemId" value="Course 3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Homework 2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -106,7 +146,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Courses" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="editor.preferences.appearance" />
@@ -120,7 +160,7 @@
       <console-settings />
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.exercises">
     <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -135,6 +175,44 @@
       <module name="Homework 2" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="main3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../Courses/Course 3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Course 3" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../Courses/Course 3/main3.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="exercises" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../Courses/Course 3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Course 3" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Alexandru\Desktop\Python-Course\Courses\Course 3\exercises3.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -224,6 +302,9 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -245,9 +326,6 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -290,12 +368,16 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.main" />
+      <item index="1" class="java.lang.String" itemvalue="Python.main3" />
+      <item index="2" class="java.lang.String" itemvalue="Python.exercises" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.main" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.exercises" />
+        <item index="1" class="java.lang.String" itemvalue="Python.main3" />
+        <item index="2" class="java.lang.String" itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -328,11 +410,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -357,6 +439,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1871" max-vertical-offset="3383">
+          <caret line="125" column="20" selection-start-line="125" selection-start-column="20" selection-end-line="125" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1224" max-vertical-offset="3077">
           <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
           <folding />
@@ -365,8 +455,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4276094" vertical-offset="1871" max-vertical-offset="3383">
-          <caret line="125" column="20" selection-start-line="125" selection-start-column="20" selection-end-line="125" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1871" max-vertical-offset="3383">
+          <caret line="139" column="29" selection-start-line="139" selection-start-column="29" selection-end-line="139" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Courses/Course 3/main3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="969">
+          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Courses/Course 3/exercises3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.94398683" vertical-offset="1195" max-vertical-offset="1921">
+          <caret line="104" column="21" selection-start-line="104" selection-start-column="21" selection-end-line="104" selection-end-column="21" />
           <folding />
         </state>
       </provider>
