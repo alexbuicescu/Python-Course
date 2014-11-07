@@ -102,9 +102,35 @@ sa tina cont si de numarul de camere.
 
 
 class BiggerHotel(Hotel):
+    rooms = {}
     def __init__(self, price_per_night, price_for_cleaning, capacity):
         self.capacity = capacity
-        super(Hotel, self).__init__(price_per_night, price_for_cleaning)
+        self.rooms = {x:[] for x in range(0, capacity)}
+        super(BiggerHotel, self).__init__(price_per_night, price_for_cleaning)
+
+
+    def available(self, my_date_range):
+    	found = 0
+        for i in range(0, self.capacity):
+            if len(self.rooms[i]) > 0:
+                for dateRange in self.rooms[i]:
+                    if dateRange.containsRange(my_date_range):
+                        found += 1
+        if found == self.capacity:
+        	return False
+        return True
+
+    def book(self, my_date_range):
+        for i in range(0, self.capacity):
+            found = 0
+            if len(self.rooms[i]) > 0:
+                for dateRange in self.rooms[i]:
+                    if dateRange.containsRange(my_date_range):
+                        found = 1
+                        break
+            if found == 0:
+            	self.rooms[i].append(my_date_range)
+            	break
 
 
 
@@ -123,7 +149,15 @@ Exemplu:
 
 
 class Point(object):
-    pass  # trebuie sters
+	def __init__(self, x, y):
+		self.x = x
+		self.y = y
+
+	def __add__(self, point2):
+		return Point(self.x + point2.x, self.y + point2.y)
+
+	def __sub__(self, point2):
+		return Point(self.x - point2.x, self.y - point2.y)
 
 
 """
@@ -254,24 +288,24 @@ def main():
     test(p3.y, p1.y - p2.y)
 
     print "\nTeste pentru clasa Complex"
-    c1 = Complex(1, 2)
-    c2 = Complex(-2, 3)
+    # c1 = Complex(1, 2)
+    # c2 = Complex(-2, 3)
 
-    c3 = c1 + c2
-    test(c3.r, -1)
-    test(c3.i, 5)
+    # c3 = c1 + c2
+    # test(c3.r, -1)
+    # test(c3.i, 5)
 
-    c3 = c1 - c2
-    test(c3.r, 3)
-    test(c3.i, -1)
+    # c3 = c1 - c2
+    # test(c3.r, 3)
+    # test(c3.i, -1)
 
-    c3 = c1 * c2
-    test(c3.r, -8)
-    test(c3.i, -1)
+    # c3 = c1 * c2
+    # test(c3.r, -8)
+    # test(c3.i, -1)
 
-    c3 = c2 / c1
-    test(c3.r, 0.8)
-    test(c3.i, 1.4)
+    # c3 = c2 / c1
+    # test(c3.r, 0.8)
+    # test(c3.i, 1.4)
 
 if __name__ == '__main__':
     main()
